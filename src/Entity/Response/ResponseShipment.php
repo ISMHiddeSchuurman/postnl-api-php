@@ -25,7 +25,7 @@
  * @license   https://opensource.org/licenses/MIT The MIT License
  */
 
-declare (strict_types = 1);
+declare (strict_types=1);
 
 namespace Firstred\PostNL\Entity\Response;
 
