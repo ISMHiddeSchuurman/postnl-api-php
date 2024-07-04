@@ -25,7 +25,7 @@
  * @license   https://opensource.org/licenses/MIT The MIT License
  */
 
-declare(strict_types=1);
+declare (strict_types = 1);
 
 namespace Firstred\PostNL\Entity\Response;
 
@@ -242,6 +242,14 @@ class ResponseShipment extends AbstractEntity
         $this->Warnings = $Warnings;
 
         return $this;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getCodingText(): ?string
+    {
+        return $this->CodingText;
     }
 
     /**
